@@ -16,7 +16,6 @@ public class TestCreateAccount {
 
     @Test
     public void test() throws InterruptedException {
-
        // Logger.getRootLogger().setLevel(Level.OFF);
         BasicConfigurator.configure();
         WebDriver driver = new FirefoxDriver();
