@@ -59,7 +59,6 @@ public class CreateAccount {
         System.out.println("yep");
         Thread.sleep(20000);
        // Assert.assertEquals(actual, expected);
-
         driver.close();
         driver.quit();
         Log.info("browser closed");
