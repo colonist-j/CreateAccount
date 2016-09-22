@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 import java.util.Random;
 
@@ -13,8 +14,8 @@ public class TestCreateAccount {
     private static final int RANDOM_STRING_LENGTH = 6;
     private static Logger Log = Logger.getLogger(LogLog4j.class.getName());
 
-
-    public static void main(String[] args) throws InterruptedException {
+    @Test
+    public void test() throws InterruptedException {
 
        // Logger.getRootLogger().setLevel(Level.OFF);
         BasicConfigurator.configure();

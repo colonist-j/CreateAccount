@@ -24,6 +24,13 @@
     </build>-->
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.9.10</version>
+        </dependency>
+
        <dependency>
             <groupId>org.nextrtc.signalingserver</groupId>
             <artifactId>nextrtc-signaling-server</artifactId>
@@ -83,7 +90,7 @@
         </dependency>-->
     </dependencies>
 
-    <build>
+  <!--  <build>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -110,7 +117,7 @@
                 <version>2.17</version>
                 <configuration>
                     <includes>
-                        <include>TestCreateAccount.java</include>
+                        <include>TestCreateAccount.class</include>
                     </includes>
                     <systemPropertyVariables>
                         <application.properties>/application.properties</application.properties>
@@ -126,5 +133,6 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>-->
+
 </project>
