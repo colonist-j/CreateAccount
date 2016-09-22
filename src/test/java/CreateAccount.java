@@ -33,6 +33,7 @@ public class CreateAccount {
         Log.info("secondName is inserted");
         driver.findElement(By.name("email")).clear();
         driver.findElement(By.name("email")).sendKeys(generateRandomString()+"@yopmail.com");
+        Thread.sleep(10000);
         Log.info("email is inserted");
         driver.findElement(By.name("phone")).clear();
         driver.findElement(By.name("phone")).sendKeys("8004566322");
