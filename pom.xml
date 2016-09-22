@@ -110,7 +110,7 @@
                 <version>2.17</version>
                 <configuration>
                     <includes>
-                        <include>TestCreateAccount.class</include>
+                        <include>TestCreateAccount.java</include>
                     </includes>
                     <systemPropertyVariables>
                         <application.properties>/application.properties</application.properties>
